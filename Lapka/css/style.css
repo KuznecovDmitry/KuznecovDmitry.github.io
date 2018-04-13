@@ -123,6 +123,17 @@ span.skills {
   	padding-left: 7px;
 }
 
+/*about*/
+.about_text p {
+  color: #484848;
+}
+
+.about_text p span {
+  font-weight: bold;
+  color: #000;
+  text-transform: uppercase;
+}
+
 
 /*contacts*/
 #google-container {
