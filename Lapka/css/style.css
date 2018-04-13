@@ -23,7 +23,7 @@ header {
 
 
 section {
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 /*navigation*/
@@ -131,18 +131,18 @@ span.skills {
 
 /*about*/
 .about_text {
-  background: #fff;
-  padding: 25px;
+  background: #8c5454;
+  padding: 35px;
 }
 
 .about_text p {
-  color: #484848;
+  color: #fff;
   font-size: 18px;
 }
 
 .about_text p span {
   font-weight: bold;
-  color: #000;
+  color: #313131;
   text-transform: uppercase;
 }
 
