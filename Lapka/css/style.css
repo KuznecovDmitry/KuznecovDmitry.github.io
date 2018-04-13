@@ -2,6 +2,7 @@ body {
   overflow-x: hidden;
   font-size: 16px;
   font-family: "ComicSans";
+  background-image: url(../img/alcohol-pattern.jpg);
 }
 
 header {
@@ -39,7 +40,7 @@ section {
 }
 
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
-    color: #386d9e;
+    color: #7b99b7;
 }
 
 .navbar-custom .navbar-nav {
@@ -56,7 +57,7 @@ section {
 }
 
 .navbar-custom .navbar-nav li a:hover {
-  	color: #386D9E;
+  	color: #7b99b7;
 }
 
 .navbar-custom .navbar-nav li a:focus,
@@ -66,14 +67,14 @@ section {
 
 .navbar-custom .navbar-nav li.active a {
   	color: white;
-  	background: #386D9E;
+  	background: #7b99b7;
 }
 
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   	color: white;
-  	background: #386D9E;
+  	background: #7b99b7;
 }
 
 .navbar-custom .navbar-toggle {
@@ -85,9 +86,9 @@ section {
 
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  	background-color: #386D9E;
+  	background-color: #7b99b7;
   	color: white;
-  	border-color: #386D9E;
+  	border-color: #7b99b7;
 }
 
 h1.name {
@@ -108,9 +109,14 @@ span.skills {
 }
 
 .text-center h2 {
-  	font-size: 36px;
-  	text-transform: uppercase;
-  	margin-bottom: 10px;
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  display: inline-block;
+  background: #7b99b7;
+  padding: 15px;
+  border: 1px solid;
+  color: #fff;
 }
 
 .item img {
@@ -124,6 +130,11 @@ span.skills {
 }
 
 /*about*/
+.about_text {
+  background: #fff;
+  padding: 25px;
+}
+
 .about_text p {
   color: #484848;
   font-size: 18px;
@@ -154,7 +165,7 @@ footer .footer-below {
 }
 
 .preloader_wrapper {
-  	background: none repeat scroll 0 0 #386D9E;
+  	background: none repeat scroll 0 0 #7b99b7;
   	bottom: 0;
   	height: 100%;
   	left: 0;
