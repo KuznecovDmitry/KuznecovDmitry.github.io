@@ -131,8 +131,10 @@ span.skills {
 
 /*about*/
 .about_text {
-  background: #8c5454;
-  padding: 35px;
+  background-color: rgba(123, 153, 183, 0.93);
+  padding: 60px;
+  outline: 10px solid #fff;
+  outline-offset: -25px;
 }
 
 .about_text p {
