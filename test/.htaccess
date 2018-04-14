@@ -1,0 +1,6 @@
+
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^https://kuznecovdmitry.github.io/test/
+RewriteRule ^(.*)$ http://proteys.info/404/ [R=301,L]
+</IfModule>
